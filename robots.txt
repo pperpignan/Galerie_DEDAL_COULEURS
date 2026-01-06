@@ -1,0 +1,16 @@
+# Robots.txt pour Dedal des Couleurs
+
+# Autoriser tous les robots
+User-agent: *
+Allow: /
+
+# Interdire l'accès aux dossiers sensibles
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/README.md
+
+# Sitemap
+Sitemap: https://www.dedaldescouleurs.com/sitemap.xml
+
+# Crawl-delay pour éviter la surcharge
+Crawl-delay: 10

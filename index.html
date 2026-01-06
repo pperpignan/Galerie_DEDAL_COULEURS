@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dedal des Couleurs - Galerie d'art présentant des œuvres uniques et contemporaines.">
+    <meta name="keywords" content="galerie d'art, peinture, art moderne, exposition, Dedal des Couleurs">
+    <meta name="author" content="Dedal des Couleurs">
+    <title>Dedal des Couleurs - Galerie d'Art</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="header-content">
+                <!-- Logo et nom -->
+                <div class="logo-section">
+                    <img src="images/logo.jpg" alt="Dedal des Couleurs" class="logo-img">
+                    <span class="logo-text">DEDAL DES COULEURS</span>
+                </div>
+
+                <!-- Navigation Desktop -->
+                <nav class="nav-desktop">
+                    <a href="#vedette" class="nav-link">EN VEDETTE</a>
+                    <a href="#galerie" class="nav-link">GALERIE</a>
+                    <a href="#apropos" class="nav-link">À PROPOS</a>
+                    <a href="#contact" class="btn-contact">CONTACT</a>
+                </nav>
+
+                <!-- Bouton Contact Desktop -->
+                
+
+                <!-- Menu Toggle Mobile -->
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+
+            <!-- Navigation Mobile -->
+            <nav class="nav-mobile" id="navMobile">
+                <a href="#vedette" class="nav-link-mobile">EN VEDETTE</a>
+                <a href="#galerie" class="nav-link-mobile">GALERIE</a>
+                <a href="#apropos" class="nav-link-mobile">À PROPOS</a>
+                <a href="#contact" class="btn-contact-mobile">CONTACT</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <img src="images/hero-bg.jpeg" alt="Gallery Interior" class="hero-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">DEDAL DES COULEURS</h1>
+            <p class="hero-text">Une exploration élégante de l'art contemporain où chaque œuvre raconte une histoire unique.</p>
+            <button class="hero-btn">DÉCOUVRIR LA COLLECTION</button>
+        </div>
+    </section>
+
+    <!-- Collection Vedette -->
+    <section id="vedette" class="collection-vedette">
+        <div class="section-overlay"></div>
+        <div class="section-container">
+            <h2 class="section-title">COLLECTION VEDETTE</h2>
+            
+            <div class="collection-grid">
+                <!-- Artwork 1 -->
+                <div class="artwork-card">
+                    <div class="artwork-frame">
+                        <img src="images/artwork-1.jpg" alt="Collage surréaliste 1" class="artwork-img">
+                        <div class="artwork-overlay">
+                            <button class="btn-details">Voir Détails</button>
+                        </div>
+                    </div>
+                    <div class="artwork-border"></div>
+                </div>
+
+                <!-- Artwork 2 -->
+                <div class="artwork-card">
+                    <div class="artwork-frame">
+                        <img src="images/artwork-2.jpg" alt="Photomontage surréaliste 2" class="artwork-img">
+                        <div class="artwork-overlay">
+                            <button class="btn-details">Voir Détails</button>
+                        </div>
+                    </div>
+                    <div class="artwork-border"></div>
+                </div>
+
+                <!-- Artwork 3 -->
+                <div class="artwork-card">
+                    <div class="artwork-frame">
+                        <img src="images/artwork-3.jpg" alt="Art abstrait surréaliste 3" class="artwork-img">
+                        <div class="artwork-overlay">
+                            <button class="btn-details">Voir Détails</button>
+                        </div>
+                    </div>
+                    <div class="artwork-border"></div>
+                </div>
+            </div>
+
+            <div class="section-cta">
+                <a href="#galerie" class="btn-secondary">Voir Toute la Collection</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notre Galerie -->
+    <section id="galerie" class="notre-galerie">
+        <div class="section-overlay"></div>
+        <div class="section-container">
+            <h2 class="section-title">NOTRE GALERIE</h2>
+            
+            <div class="galerie-grid">
+                <!-- Gallery Item 1 -->
+                <div class="galerie-card">
+                    <img src="images/gallery-1.jpg" alt="Art abstrait géométrique coloré" class="galerie-img">
+                    <div class="galerie-overlay">
+                        <div class="galerie-icon">
+                            <svg class="icon-zoom" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                            </svg>
+                        </div>
+                        <p class="galerie-text">Voir plus</p>
+                    </div>
+                    <div class="galerie-border"></div>
+                </div>
+
+                <!-- Gallery Item 2 -->
+                <div class="galerie-card">
+                    <img src="images/gallery-2.jpg" alt="Femme surréaliste dans la nature" class="galerie-img">
+                    <div class="galerie-overlay">
+                        <div class="galerie-icon">
+                            <svg class="icon-zoom" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                            </svg>
+                        </div>
+                        <p class="galerie-text">Voir plus</p>
+                    </div>
+                    <div class="galerie-border"></div>
+                </div>
+
+                <!-- Gallery Item 3 -->
+                <div class="galerie-card">
+                    <img src="images/gallery-3.jpg" alt="Portrait surréaliste aux pommes" class="galerie-img">
+                    <div class="galerie-overlay">
+                        <div class="galerie-icon">
+                            <svg class="icon-zoom" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                            </svg>
+                        </div>
+                        <p class="galerie-text">Voir plus</p>
+                    </div>
+                    <div class="galerie-border"></div>
+                </div>
+
+                <!-- Gallery Item 4 -->
+                <div class="galerie-card">
+                    <img src="images/gallery-4.jpg" alt="Portrait vintage" class="galerie-img">
+                    <div class="galerie-overlay">
+                        <div class="galerie-icon">
+                            <svg class="icon-zoom" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                            </svg>
+                        </div>
+                        <p class="galerie-text">Voir plus</p>
+                    </div>
+                    <div class="galerie-border"></div>
+                </div>
+
+                <!-- Gallery Item 5 -->
+                <div class="galerie-card">
+                    <img src="images/gallery-5.jpg" alt="Sculpture florale" class="galerie-img">
+                    <div class="galerie-overlay">
+                        <div class="galerie-icon">
+                            <svg class="icon-zoom" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                            </svg>
+                        </div>
+                        <p class="galerie-text">Voir plus</p>
+                    </div>
+                    <div class="galerie-border"></div>
+                </div>
+
+                <!-- Gallery Item 6 -->
+                <div class="galerie-card">
+                    <img src="images/gallery-6.jpg" alt="Peinture abstraite texturée" class="galerie-img">
+                    <div class="galerie-overlay">
+                        <div class="galerie-icon">
+                            <svg class="icon-zoom" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                            </svg>
+                        </div>
+                        <p class="galerie-text">Voir plus</p>
+                    </div>
+                    <div class="galerie-border"></div>
+                </div>
+
+                <!-- Gallery Item 7 -->
+                <div class="galerie-card">
+                    <img src="images/gallery-7.jpg" alt="Architecture surréaliste" class="galerie-img">
+                    <div class="galerie-overlay">
+                        <div class="galerie-icon">
+                            <svg class="icon-zoom" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                            </svg>
+                        </div>
+                        <p class="galerie-text">Voir plus</p>
+                    </div>
+                    <div class="galerie-border"></div>
+                </div>
+
+                <!-- Gallery Item 8 -->
+                <div class="galerie-card">
+                    <img src="images/gallery-8.jpg" alt="Visages abstraits modernes" class="galerie-img">
+                    <div class="galerie-overlay">
+                        <div class="galerie-icon">
+                            <svg class="icon-zoom" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                            </svg>
+                        </div>
+                        <p class="galerie-text">Voir plus</p>
+                    </div>
+                    <div class="galerie-border"></div>
+                </div>
+            </div>
+
+            <div class="section-cta">
+                <button class="btn-load-more">Charger Plus d'Œuvres</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- À Propos de Nous -->
+    <section id="apropos" class="apropos">
+        <div class="section-overlay"></div>
+        <div class="section-container">
+            <h2 class="section-title">À PROPOS DE NOUS</h2>
+            
+            <div class="apropos-content">
+                <!-- Image Gauche -->
+                <div class="apropos-image-wrapper">
+                    <div class="apropos-image-frame">
+                        <img src="images/gallery-interior.jpg" alt="Intérieur de la galerie Dedal des Couleurs" class="apropos-img">
+                    </div>
+                </div>
+
+                <!-- Texte Droite -->
+                <div class="apropos-text">
+                    <p class="apropos-paragraph">
+                        Fondée en 2010, Dedal des Couleurs est une galerie d'art contemporain 
+                        dédiée à la promotion d'artistes émergents et établis. Notre mission 
+                        est de créer un espace où l'art et le public se rencontrent dans une 
+                        atmosphère élégante et accessible.
+                    </p>
+                    <p class="apropos-paragraph">
+                        Nous organisons régulièrement des expositions, des événements privés 
+                        et des rencontres avec les artistes, offrant ainsi une expérience 
+                        culturelle enrichissante à nos visiteurs.
+                    </p>
+                    <div class="apropos-cta">
+                        <button class="btn-primary">En Savoir Plus</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="contact-bg">
+            <img src="images/flbd.jpg" alt="Gallery Background" class="contact-img">
+            <div class="contact-overlay"></div>
+        </div>
+        <div class="section-container">
+            <div class="contact-content">
+                <!-- Informations Gauche -->
+                <div class="contact-info">
+                    <h2 class="contact-title">INFORMATIONS</h2>
+                    
+                    <div class="info-list">
+                        <!-- Adresse -->
+                        <div class="info-item">
+                            <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <p>Adresse : 10 Rue de la République, 75000 Paris</p>
+                        </div>
+
+                        <!-- Téléphone -->
+                        <div class="info-item">
+                            <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            <p>Tel : 01.63.45.85.56</p>
+                        </div>
+
+                        <!-- Fax -->
+                        <div class="info-item">
+                            <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                                <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                                <rect x="6" y="14" width="12" height="8"></rect>
+                            </svg>
+                            <p>Fax : 01.63.45.78.52</p>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="info-item">
+                            <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <p>Email : dedal@gmail.com</p>
+                        </div>
+
+                        <!-- Horaires -->
+                        <div class="info-item">
+                            <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                            <div>
+                                <p>Mardi - Samedi</p>
+                                <p>10h00 - 19h00</p>
+                                <p>Dimanche: 14h00 - 18h00</p>
+                                <p>Lundi: Fermé</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Réseaux sociaux -->
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                            </svg>
+                        </a>
+                        <span class="social-handle">@dedaldescouleurs</span>
+                    </div>
+                </div>
+
+                <!-- Formulaire Droite -->
+                <div class="contact-form-wrapper">
+                    <h2 class="contact-title">CONTACTEZ-NOUS</h2>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Votre nom</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Votre Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Votre téléphone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Votre message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="form-submit">Envoyer le Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
